@@ -10,10 +10,10 @@ POST https://checkifemailalreadyused-cgtbvgpb5q-uc.a.run.app
 
 ### Request:
 
-Method: POST
-Headers:
-Content-Type: application/json
-Body: JSON object with the following structure:
+* Method: POST
+* Headers:
+    - Content-Type: application/json
+* Body: JSON object with the following structure:
 
 {
   "email": "example@example.com"
@@ -21,11 +21,12 @@ Body: JSON object with the following structure:
 
 ### Response:
 
-Status Codes:
-200: Email is not already used.
-401: Email is already used.
-500: Internal server error occurred.
-Body: JSON object with the following structure:
+* Status Codes:
+    - 200: Email is not already used.
+    - 401: Email is already used.
+    - 500: Internal server error occurred.
+
+* Body: JSON object with the following structure:
 
 {
   "code": <status_code>
@@ -34,6 +35,7 @@ Body: JSON object with the following structure:
 ### Usage:
 
 1. Request Format: Send a POST request to the provided endpoint with a JSON body containing the email to be checked.
+
 2. Response Handling: Handle the response to determine if the email is already used or not.
 
 Example:

@@ -19,6 +19,8 @@ POST https://createrestaurantaccount-cgtbvgpb5q-uc.a.run.app
     - Phone Number: String (Restaurant phone number)
     - HoursOfOperations: String (Restaurant hours of operations)
     - Email: String (Restaurant email)
+    - Admins: Array of Strings (List of restaurants account admins)
+    - SuperUsers: Array of Strings (List of restaurants account super users)
 
 ### Response:
 
@@ -50,8 +52,12 @@ Content-Type: application/json
   "Address": "123 Example St, City, Country",
   "Phone Number": "123-456-7890",
   "HoursOfOperations": "Mon-Fri: 9am-5pm",
-  "Email": "example@example.com"
+  "Email": "example@example.com",
+  "Admins": [],
+  "SuperUsers": []
 }
+
+Note: Very important to have the admins and superusers keys - even if the arrays are empty - when making the request because we will need those arrays to save admins and super users authentification IDs.
 
 #### Response:
 

@@ -34,6 +34,8 @@ POST https://createrestaurantaccount-cgtbvgpb5q-uc.a.run.app
   "accountID": "<docRef.id>"
 }
 
+Note: Very important to not pay attention how this data will be handled in the front-end because it will be necessary for the next step of the account set up for clients. This has to be implemented and extensively tested because it can become a point of failure for the software during account set up.
+
 ### Usage:
 
 1. Request Format: Send a POST request to the provided endpoint with a JSON body containing the details of the restaurant account to be created.

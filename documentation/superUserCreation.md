@@ -6,7 +6,7 @@ This Google Cloud Function is responsible for creating a new super user for a re
 
 ### Endpoint:
 
-POST https://<region>-<project_id>.cloudfunctions.net/createSuperUser
+POST https://createsuperuser-module-cgtbvgpb5q-uc.a.run.app
 
 ### Request:
 
@@ -48,7 +48,7 @@ Example:
 
 #### Request:
 
-POST https://<region>-<project_id>.cloudfunctions.net/createSuperUser
+POST https://createsuperuser-module-cgtbvgpb5q-uc.a.run.app
 Content-Type: application/json
 
 {

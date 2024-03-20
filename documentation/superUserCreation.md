@@ -25,6 +25,7 @@ POST https://createsuperuser-module-cgtbvgpb5q-uc.a.run.app
     - 204: Super user successfully created.
     - 404: Maximum number of super users reached for the account.
     - 500: Internal server error occurred.
+    - 501: Email already in use by another user
 
 * Body: JSON object with the following structure (for success):
 

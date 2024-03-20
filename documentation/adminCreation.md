@@ -6,7 +6,7 @@ This Google Cloud Function is responsible for creating a new admin for a restaur
 
 ### Endpoint:
 
-POST https://createsuperuser-module-cgtbvgpb5q-uc.a.run.app
+POST https://createadmin-module-cgtbvgpb5q-uc.a.run.app
 
 ### Request:
 
@@ -49,7 +49,7 @@ Example:
 
 #### Request:
 
-POST https://createsuperuser-module-cgtbvgpb5q-uc.a.run.app
+POST https://createadmin-module-cgtbvgpb5q-uc.a.run.app
 Content-Type: application/json
 
 {
